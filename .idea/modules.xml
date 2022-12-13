@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/learnopengl-wayland-test.iml" filepath="$PROJECT_DIR$/.idea/learnopengl-wayland-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/learn-opengl.iml" filepath="$PROJECT_DIR$/.idea/learn-opengl.iml" />
     </modules>
   </component>
 </project>

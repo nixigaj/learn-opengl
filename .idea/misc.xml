@@ -8,12 +8,12 @@
     <libraryRoots>
       <file path="$PROJECT_DIR$/ext/glad" />
       <file path="$PROJECT_DIR$/ext/glfw-dev" />
-      <file path="$PROJECT_DIR$/../learn_opengl/ext/glad" />
-      <file path="$PROJECT_DIR$/../learn_opengl/ext/glfw-dev" />
+      <file path="$PROJECT_DIR$/../learn-opengl/ext/glad" />
+      <file path="$PROJECT_DIR$/../learn-opengl/ext/glfw-dev" />
     </libraryRoots>
     <excludeRoots>
       <file path="$PROJECT_DIR$/exp" />
-      <file path="$PROJECT_DIR$/../learn_opengl/exp" />
+      <file path="$PROJECT_DIR$/../learn-opengl/exp" />
     </excludeRoots>
   </component>
 </project>
