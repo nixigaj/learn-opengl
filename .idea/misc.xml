@@ -6,7 +6,7 @@
       <file path="$PROJECT_DIR$/../learn_opengl/src" />
     </sourceRoots>
     <libraryRoots>
-      <file path="$PROJECT_DIR$/ext/glad" />
+      <file path="$PROJECT_DIR$/ext/glad-learn-opengl" />
       <file path="$PROJECT_DIR$/ext/glfw-dev" />
       <file path="$PROJECT_DIR$/ext/patches/python-patch" />
     </libraryRoots>

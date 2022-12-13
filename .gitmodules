@@ -1,4 +1,12 @@
+[submodule "ext/glad-learn-opengl"]
+	path = ext/glad-learn-opengl
+	url = https://github.com/nixigaj/glad-learn-opengl
+
 [submodule "ext/glfw-dev"]
 	path = ext/glfw-dev
 	url = https://github.com/envyen/glfw-dev.git
 	branch = drag-window-dev
+
+[submodule "ext/patches/python-patch"]
+	path = ext/patches/python-patch
+	url = https://github.com/techtonik/python-patch
