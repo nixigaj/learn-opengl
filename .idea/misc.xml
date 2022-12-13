@@ -8,12 +8,13 @@
     <libraryRoots>
       <file path="$PROJECT_DIR$/ext/glad" />
       <file path="$PROJECT_DIR$/ext/glfw-dev" />
-      <file path="$PROJECT_DIR$/../learn-opengl/ext/glad" />
-      <file path="$PROJECT_DIR$/../learn-opengl/ext/glfw-dev" />
+      <file path="$PROJECT_DIR$/ext/patches/python-patch" />
     </libraryRoots>
     <excludeRoots>
       <file path="$PROJECT_DIR$/exp" />
-      <file path="$PROJECT_DIR$/../learn-opengl/exp" />
     </excludeRoots>
+  </component>
+  <component name="PythonCompatibilityInspectionAdvertiser">
+    <option name="version" value="3" />
   </component>
 </project>

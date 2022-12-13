@@ -1,0 +1,34 @@
+Index: ext/glfw-dev/src/wl_init.c
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ext/glfw-dev/src/wl_init.c b/ext/glfw-dev/src/wl_init.c
+--- a/ext/glfw-dev/src/wl_init.c	(date 1670937221366)
++++ b/ext/glfw-dev/src/wl_init.c	(revision 6463fcb85a1de133a3b4cd36bcb439aa48b4c372)
+@@ -339,7 +339,7 @@
+
+ static GLFWbool loadCursorTheme(void)
+ {
+-    int cursorSize = 24;
++    int cursorSize = 32;
+
+     const char* sizeString = getenv("XCURSOR_SIZE");
+     if (sizeString)
+Index: ext/glfw-dev/src/wl_window.c
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ext/glfw-dev/src/wl_window.c b/ext/glfw-dev/src/wl_window.c
+--- a/ext/glfw-dev/src/wl_window.c	(date 1670937221369)
++++ b/ext/glfw-dev/src/wl_window.c	(revision 6463fcb85a1de133a3b4cd36bcb439aa48b4c372)
+@@ -217,7 +217,7 @@
+
+ static void createFallbackDecorations(_GLFWwindow* window)
+ {
+-    unsigned char data[] = { 102, 150, 83, 255 };
++    unsigned char data[] = { 224, 224, 224, 255 };
+     const GLFWimage image = { 1, 1, data };
+ 
+     if (!_glfw.wl.viewporter)
