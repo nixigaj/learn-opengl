@@ -53,7 +53,6 @@ endif()
 target_link_libraries(imgui PUBLIC ${CMAKE_DL_LIBS})
 
 # STB
-
 add_library(stb STATIC
         stb/stb_c_lexer.h
         stb/stb_connected_components.h
