@@ -31,33 +31,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a1ddeba-c393-480e-bc16-bb8d53262743" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/learn-opengl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learn-opengl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext/glad-learn-opengl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext/glfw-dev" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext/imgui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext/patches/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext/patches/apply-patches.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext/patches/glfw-dev-reverse.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext/patches/glfw-dev.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext/patches/python-patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext/stb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hello-window.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imgui-test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simple-setup.cpp" beforeDir="false" />
-    </list>
+    <list default="true" id="6a1ddeba-c393-480e-bc16-bb8d53262743" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +40,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -248,7 +222,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "CMake Application.hello_window.executor": "Debug",
+    "CMake Application.hello_window.executor": "Run",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -294,7 +268,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735954251079</updated>
-      <workItem from="1735954252728" duration="2805000" />
+      <workItem from="1735954252728" duration="3107000" />
     </task>
     <servers />
   </component>
@@ -305,16 +279,5 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/hello_window.cpp</url>
-          <line>20</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
