@@ -20,8 +20,8 @@
       <config projectName="learn-opengl" targetName="glfw" />
       <config projectName="learn-opengl" targetName="glad" />
       <config projectName="learn-opengl" targetName="uninstall" />
+      <config projectName="learn-opengl" targetName="hello_triangle" />
       <config projectName="learn-opengl" targetName="update_mappings" />
-      <config projectName="learn-opengl" targetName="hello_window" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -31,7 +31,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a1ddeba-c393-480e-bc16-bb8d53262743" name="Changes" comment="" />
+    <list default="true" id="6a1ddeba-c393-480e-bc16-bb8d53262743" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/hello_triangle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hello_window.cpp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,6 +228,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "CMake Application.hello_triangle.executor": "Run",
     "CMake Application.hello_window.executor": "Run",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -239,7 +246,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CPPToolchains",
+    "settings.editor.selected.configurable": "CMakeSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -254,7 +261,10 @@
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_window" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="learn-opengl" TARGET_NAME="hello_window" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="learn-opengl" RUN_TARGET_NAME="hello_window">
+    <configuration name="hello_triangle" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="learn-opengl" TARGET_NAME="hello_triangle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="learn-opengl" RUN_TARGET_NAME="hello_triangle">
+      <envs>
+        <env name="GTK_THEME" value="Adwaita-dark" />
+      </envs>
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -268,7 +278,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735954251079</updated>
-      <workItem from="1735954252728" duration="3107000" />
+      <workItem from="1735954252728" duration="4499000" />
     </task>
     <servers />
   </component>
