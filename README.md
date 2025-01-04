@@ -1,9 +1,13 @@
 # learn-opengl
 
-My code when going through the [Learn OpenGL Tutorial](https://learnopengl.com/). I use CLion as my IDE.
+My code when going through the [Learn OpenGL Tutorial](https://learnopengl.com/). I use CLion as my IDE along with its CMake integration.
 
-Clone with:
+Needed Debian/Ubuntu packages for development:
+```
+sudo apt install libglm-dev libstb-dev libglew-dev libopengl-dev
+```
 
-    git clone --recurse-submodules -j8 https://github.com/nixigaj/learn-opengl.git
-
-![Screenshot](screenshot.png)
+Needed macOS packages for development:
+```
+brew install glm stb glew
+```

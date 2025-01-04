@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakePythonSetting">
+    <option name="pythonIntegrationState" value="YES" />
+  </component>
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
   <component name="CidrRootsConfiguration">
-    <sourceRoots>
-      <file path="$PROJECT_DIR$/src" />
-      <file path="$PROJECT_DIR$/../learn_opengl/src" />
-    </sourceRoots>
-    <libraryRoots>
-      <file path="$PROJECT_DIR$/ext/glad-learn-opengl" />
-      <file path="$PROJECT_DIR$/ext/glfw-dev" />
-      <file path="$PROJECT_DIR$/ext/imgui" />
-      <file path="$PROJECT_DIR$/ext/patches/python-patch" />
-      <file path="$PROJECT_DIR$/ext/stb" />
-    </libraryRoots>
     <excludeRoots>
-      <file path="$PROJECT_DIR$/exp" />
+      <file path="$PROJECT_DIR$/lib" />
     </excludeRoots>
-  </component>
-  <component name="PythonCompatibilityInspectionAdvertiser">
-    <option name="version" value="3" />
   </component>
 </project>

@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ext/glad-learn-opengl" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ext/glfw-dev" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ext/imgui" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ext/patches/python-patch" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ext/stb" vcs="Git" />
+    <mapping directory="" vcs="Git" />
   </component>
 </project>
