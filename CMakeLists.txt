@@ -13,7 +13,7 @@ include(FetchContent)
 FetchContent_Declare(
 		glad
 		GIT_REPOSITORY https://github.com/nixigaj/glad-learn-opengl
-		GIT_TAG        4af22f323983b49430fbcedef865002a9bfe2304  # Feb 24, 2025
+		GIT_TAG        2a31b17610144a266a3cc67fae52640ecd5aac9c  # Feb 24, 2025
 )
 FetchContent_MakeAvailable(glad)
 
