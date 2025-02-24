@@ -1,4 +1,0 @@
-[submodule "ext/patches/python-patch"]
-	path = ext/patches/python-patch
-	url = https://github.com/techtonik/python-patch
-
